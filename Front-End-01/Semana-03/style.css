@@ -1,0 +1,146 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100%;
+}
+
+div#content {
+    height: 100%;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100%;
+    background-color: #761212;
+    float: left;
+    position: fixed;
+}
+
+.figureFoto {
+    height: auto;
+    padding-top: 2vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.figureFoto img {
+    border-radius: 50vw;
+    width: 13vw;
+    height: auto;
+    border: 0.8vw solid #ab3000;
+    position: relative;
+}
+
+menu {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.4vw;
+    padding-inline-start: 0px !important;
+}
+
+ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 1vw;
+}
+
+li a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.activeLink{
+    color: #ebd6c6;
+}
+
+.inactiveLink{
+    color: #d69477;
+}
+
+.side2 {
+    width: 80%;
+    position: relative;
+    float: right;
+}
+
+.info {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+}
+
+section.nome {
+    margin-left: 3vw;
+    font-size: 5vw;
+    padding-top: 0.5vw;
+    font-family: sans-serif;
+}
+
+section.nome h1 {
+    font-size: 6vw;
+    height: 6vw;
+    margin-bottom: 2vw;
+}
+
+.colorCharge{
+    color: #b26241;
+}
+
+.linkEmail{
+    color: #b26241;
+}
+
+.endereco {
+    margin-left: 3vw;
+    font-size: 2.3vw;
+    font-variant-caps: all-small-caps;
+    height: 8vw;
+}
+
+section.endereco h3 {
+    height: 4vw;
+    font-size: 2vw;
+    font-family: system-ui;
+}
+
+a.linkEmail {
+    text-decoration: none;
+}
+
+section.endereco a {
+    float: left;
+    margin-left: 0vw;
+}
+
+section.sobre p {
+    font-size: 2vw;
+    font-family: system-ui;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    color: #707070;
+    margin-right: 2vw;
+    background-color: #ebebeb;
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 2vw;
+}
+
+section.sobre {
+    width: 65vw;
+}
+
+section.tel a {
+    text-decoration: none;
+    color: #b26241;
+    font-size: 2vw;
+    font-family: inherit;
+    height: 2vw;
+}
