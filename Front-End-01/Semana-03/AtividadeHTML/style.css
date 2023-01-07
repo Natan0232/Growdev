@@ -1,0 +1,205 @@
+body {
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.azul {
+    width: 60vw;
+    height: 100vh;
+    background-color: blue;
+    margin-left: 20vw;
+}
+
+.vermelho {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    top: 10%;
+    left: 15%;
+    background-color: red;
+}
+
+.preto {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background-color: black;
+}
+
+.verde {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background-color: green;
+}
+
+.amarelo {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    background-color: yellow;
+}
+
+/* Arquivo 02 */
+
+div#bloco {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+}
+
+.position1 {
+    position: relative;
+    float: left;
+    top: 0px;
+}
+
+.position2 {
+    position: relative;
+    float: right;
+    top: 0px;
+}
+
+.position3 {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+}
+
+.position4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* arquivo 03 */
+
+.box1 {
+    position: relative;
+    width: 90vw;
+    height: auto;
+    background-color: #313131;
+    border-radius: 20px;
+    margin-left: 5vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    top: 25px;
+}
+
+.box1 p {
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box2 {
+    position: relative;
+    width: 90vw;
+    height: 40vh;
+    background-color: #313131;
+    border: 1px solid red;
+    top: 8vh;
+    left: 5vw;
+    overflow: overlay;
+    margin-bottom: 20vh;
+}
+
+.box2 p {
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+/* arquivo 04 */
+
+div#bloco1 {
+    width: 150px;
+    height: 150px;
+    background-color: #272727;
+}
+
+.caixa1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.caixa2 {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+}
+
+.caixa3 {
+    position: absolute;
+    left: 310px;
+    top: 0px;
+}
+
+.caixa4 {
+    position: absolute;
+    left: 0px;
+    top: 155px;
+}
+
+.caixa5 {
+    position: absolute;
+    left: 155px;
+    top: 155px;
+}
+
+.caixa6 {
+    position: absolute;
+    top: 310px;
+    left: 0px;
+}
+
+.caixa7 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.caixa8 {
+    position: absolute;
+    right: 155px;
+    bottom: 0px;
+}
+
+.caixa9 {
+    position: absolute;
+    right: 310px;
+    bottom: 0px;
+}
+
+.caixa10 {
+    position: absolute;
+    right: 0px;
+    bottom: 155px;
+}
+
+.caixa11 {
+    position: absolute;
+    bottom: 155px;
+    right: 155px;
+}
+
+.caixa12 {
+    position: absolute;
+    bottom: 310px;
+    right: 0px;
+}
