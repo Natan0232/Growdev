@@ -197,3 +197,7 @@ section.obj p {
     margin-left: 20px;
     padding-top: 10px;
 }
+
+section.tel {
+    margin-left: 30vw;
+}
