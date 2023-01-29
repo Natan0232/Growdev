@@ -257,7 +257,7 @@ enquanto a soma seja menor que 500 e no final mostre qual o
 let lerNumber = Number(prompt('Digite um numero:'));
 let soma1 = 0;
 while (lerNumber * 3 <= 500) {
-  soma = lerNumber * 3;
+  soma1 = lerNumber * 3;
   lerNumber = soma1
 }
 
